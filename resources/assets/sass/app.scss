@@ -1,9 +1,41 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+@import "normalize";
+@import "skeleton";
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+  margin: 0;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.w-max {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.mw-720 {
+  max-width: 720px;
+}
